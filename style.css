@@ -5,3 +5,60 @@
 
   background-color: #E5E5E5;
 }
+
+.logo{
+  margin-right: 88px;
+}
+
+.header__container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 50px 122px 0 122px;
+
+  display: flex;
+  align-items: center;
+}
+
+.header__nav {
+  display: flex;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+}
+
+
+.nav__list-item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+
+  list-style: none;
+  cursor: pointer;
+}
+
+.nav__list-item:last-child {
+  margin-left: 55px;
+}
+
+.header-btn {
+  margin-left: auto;
+  padding: 15px 27px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25);
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+
+  text-align: center;
+
+  background-color: black;
+  color: #fff;
+
+  cursor: pointer;
+}
