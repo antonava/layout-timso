@@ -1,27 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="swith.css">
   <title>Timso layout</title>
 </head>
+
 <body>
   <header class="header__container">
-   <a class="logo" href="/">
-     <img src="./images/logo.svg" alt="logo">
-   </a>
+    <a class="logo" href="/">
+      <img src="./images/logo.svg" alt="logo">
+    </a>
     <nav class="header__nav">
       <ul class="nav__list">
         <li class="nav__list-item">features</li>
         <li class="nav__list-item">pricing</li>
       </ul>
     </nav>
-    <button class="header-btn">
+    <button class="btn header_btn">
       apply for 2 free months
     </button>
   </header>
 
+  <section class="block_container">
+    <p class="main_title common_info_title">hybrid and remote teams became easy to manage now</p>
+    <div class="switcher_container">
+      <span class="switch_info">turn on timso</span>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <div class="svg__container">
+      <img src="./images/dialog_diagram.svg" alt="dialog_diagram">
+      <img src="./images/main_block.svg" alt="main_block">
+    </div>
+  </section>
+
+  <section class="block_container">
+    <div class="container_info">
+      <div class="item">
+        <p class="main_title container_info_title">simple coordination for remote teams and flex offices</p>
+        <p class="info_title container_info_subtitle">easy to find and mark who works from the office, who is remote
+          from home or is not
+          available at all</p>
+        <p class="link_title">integrate timso with your corporate chats to show statuses there</p>
+        <div class="links_container">
+          <img class="link_svg" src="./images/slack.svg" alt="slack">
+          <img src="./images/mc_teams.svg" alt="mc_teams">
+        </div>
+      </div>
+      <img class="item" src="./images/slack_screen.svg" alt="slack_screen">
+      <img class="item" src="./images/custom_status_example.svg" alt="custom_status">
+      <div class="item">
+        <p class="main_title container_title">create your own custom statuses to optimise routine</p>
+        <p class="sub_title container_subtitle">every team has individual processes</p>
+        <p class="info_title info_title_container">in addition to standard statuses, you can set up your own statuses
+          with customised rules</p>
+        <button class="btn container_info_btn">
+          sign up for beta launch
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="block_container partners_block">
+    <p class="main_title partners_title">flex offices with half-remote teams are a new reality of management</p>
+    <p class="info_title partners_block_info_title">companies that already switched to hybrid model and use their
+      offices as hubs</p>
+    <div class="container_info">
+      <img src="./images/amazon.svg" alt="amazon">
+      <img src="./images/grammarly.svg" alt="grammarly">
+      <img src="./images/dropbox.svg" alt="dropbox">
+      <img src="./images/oracle.svg" alt="oracle">
+      <img src="./images/image.svg" alt="slack">
+      <img src="./images/okta.svg" alt="okta">
+      <img src="./images/twitter.svg" alt="twitter">
+      <img src="./images/mastercard.svg" alt="mastercard">
+      <img src="./images/softserve.svg" alt="softserve">
+      <img src="./images/siemens.svg" alt="siemens">
+      <img src="./images/luxsoft.svg" alt="luxoft">
+      <img src="./images/deloitte.svg" alt="deloitte">
+    </div>
+  </section>
+
+  <section class="block_container">
+    <div class="container_info">
+      <div class="item">
+        <p class="main_title presentation_title">optimise your office space via timso</p>
+        <p class="sub_title presentation_sub_title">for hybrid teams who use their desks, open spaces and meeting rooms
+          smart</p>
+        <button class="btn presentation_btn">request a demo</button>
+      </div>
+      <img class="item" src="./images/presentation.svg" alt="presentation">
+      <img class="item" src="./images/grafics.svg" alt="grafics">
+      <div class="item">
+        <p class="main_title presentation_title">analyze your team and office effectivity</p>
+        <p class="sub_title">data gives an opportunity to scale smart</p>
+        <p class="info_title presentation_info_title">analyse data from team attendance and office space occupancy</p>
+        <button class="btn presentation_btn">apply for 2 free months</button>
+      </div>
+
+      <div class="item">
+        <div class="devices_block">
+          <img src="./images/computer.svg" class="presentation_list presentation_img" alt="computer">
+          <p class="main_title devices_block_title">app works from mobile and desktop</p>
+
+          <ul class="sub_title list">
+            <li class="presentation_list">iOS app for iPhone and iPad</li>
+            <li class="presentation_list">android app for mobile phones</li>
+            <li class="presentation_list">responsive web-app for desktop</li>
+          </ul>
+        </div>
+
+
+      </div>
+      <div class="item">
+        <div class="devices_block">
+          <img src="./images/laptop.svg" class="presentation_list presentation_img" alt="computer">
+          <p class="main_title devices_block_title">all your data are secured</p>
+
+          <ul class="sub_title list laptop_list_container">
+            <li class="presentation_list">PIN-code and face/touch ID</li>
+            <li class="presentation_list">2-factor authentication</li>
+            <li class="presentation_list">dedicated server for companies from 1k</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+
+  </section>
+
+  <section class="block_container">
+    <p class="main_title booking_info_title">let your team schedule worktime and workspaces fast</p>
+    <button class="btn booking_info_btn">book a demo</button>
+  </section>
+
+  <section class="block_container connection_block">
+    <img src="./images/team_footer.svg" alt="team">
+    <div class="test">
+        <p class="main_title connection_title">try two months of full functionality for free</p>
+        <p class="sub">for companies and teams that sign up for early access</p>
+        <div class="email_form">
+          <input type="email" class="email_input">
+          <button class="email_btn">send</button>
+        </div>
+    </div>
+  </section>
+
+  <footer class="block_container">
+    <div class="logo_container">
+      <p class="sub_title">pricing</p>
+      <img class="languale_container" src="./images//small_logo.svg" alt="small-log">
+    </div>
+    <div class="footer_container">
+      <p class="sub_title email_sub_title">write your questions and suggestions to</p>
+      <p class="sub_title email_info">hi@timso.app</p>
+      <ul class="languale_container sub_title footer_info_color">
+        <li class="languale_items">ua</li>
+        <li class="languale_items">ru</li>
+        <li class="languale_items">en</li>
+      </ul>
+    </div>
+  </footer>
+
 </body>
+
 </html>
